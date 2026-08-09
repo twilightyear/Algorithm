@@ -1,5 +1,3 @@
-[ Image ]
-
 ### [ LeetCode ] 271. Encode and Decode Strings
 
 ### 📌 문제 링크
