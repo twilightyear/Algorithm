@@ -3,6 +3,7 @@ class Solution:
     def twoSum(self, numbers: List[int], target: int) -> List[int]:
         for num_idx in range(len(numbers)):
             sub = target-numbers[num_idx] #뺀 값 구하기
+            
             if sub in numbers:
                 sub_idx = 0
                 for j in range(len(numbers)): #뺀 값의 인덱스 확인 과정
